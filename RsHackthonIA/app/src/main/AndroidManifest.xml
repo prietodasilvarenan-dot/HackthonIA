@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RsHackthonIA">
         <activity
+            android:name=".RecomendsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EvitarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreferenciasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PedidoActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

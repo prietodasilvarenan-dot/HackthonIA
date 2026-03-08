@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".PedidoActivity">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -21,18 +21,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tituloMain"
+            android:text="@string/tituloPedido"
             android:textSize="34sp" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/localOuViagem"
-            android:textSize="24sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,18 +33,18 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/viagem" />
+                android:text="@string/pedidoIa" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/local" />
+                android:text="@string/pedidoNormal" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
