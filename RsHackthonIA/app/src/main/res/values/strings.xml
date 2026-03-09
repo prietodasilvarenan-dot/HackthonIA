@@ -1,22 +1,27 @@
 <resources>
     <string name="app_name">RsHackthonIA</string>
 
+
     <!-- MAIN ACTIVITY -->
     <string name="tituloMain">Seja Bem-vindo!</string>
     <string name="localOuViagem">Deseja consumir no local ou levar para viagem?</string>
     <string name="local">No Local</string>
     <string name="viagem">Para Viagem</string>
 
+
     <!-- PEDIDO ACTIVITY -->
     <string name="tituloPedido">Deseja usar IA ou Efetuar o Pedido Normalmente?</string>
     <string name="pedidoIa">Usar IA</string>
     <string name="pedidoNormal">Normal</string>
 
+
     <!-- PREFERENCIAS ACTIVITY -->
     <string name="preferencias">Escolha suas Preferencias!</string>
 
+
     <!-- ITENS A EVITAR ACTIVITY -->
     <string name="evitar">Escolha os Itens que deseja Evitar</string>
+
 
     <!-- STRINGS GLOBAIS -->
     <string name="proximo">Próximo</string>
